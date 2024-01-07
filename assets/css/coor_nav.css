@@ -1,0 +1,48 @@
+
+.profile {
+    margin-left: 33px;
+    margin-bottom: 15px;
+    cursor: default;
+}
+
+.profile .coor-name {
+    font-weight: 500;
+}
+
+.profile .campus {
+    font-size: 14px;
+    font-weight: 300;   
+    color: var(--textcolor);
+}
+
+.nav-container {
+    position: relative;
+}
+
+.navbar-container button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 52.5px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.navbar-container button img {
+    width: 18px;
+    height: 17px;
+    margin-right: 12px;
+}
+
+.navbar-container span {
+    font-size: 13px;
+    color: var(--textcolor);
+}
+
+.logout {
+    position: absolute;
+    bottom: 35px;
+    right: -23px;
+}

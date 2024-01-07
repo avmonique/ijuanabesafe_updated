@@ -1,0 +1,15 @@
+.content {
+    margin-left: 330px;
+}
+
+.content h1 {
+    color: var(--textcolor);
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.content-container {
+    width: 1150px;
+}

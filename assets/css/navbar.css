@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --textcolor: #313131;
+    --ybgcolor: #ffcf84;
+    --bbgcolor: #559bfa;
+}
+
+body {
+    background: url('/websys/assets/images/background.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-container .logo-container {
+    margin: 40px 0 40px 30px;
+}
+
+.navbar-container .logo-container img {
+    width: 170px;
+}
+
+.navbar-container nav {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 35px;
+    margin-right: 35px; */
+    margin: 0 20px;
+}
+
+.navbar-container nav a {
+    text-decoration: none;
+    margin-bottom: 10px;  
+}
+
+.navbar-container nav button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 52.5px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.navbar-container nav button img {
+    width: 18px;
+    height: 17px;
+    margin-right: 12px;
+}
+
+.navbar-container nav span {
+    font-size: 13px;
+    color: var(--textcolor);
+}
+
+.navbar a.active button  {
+    /* background-color: #559afa3c; */
+    background-color: #ffd08438;
+    border-radius: 50px;
+    font-weight: 500;
+}
+

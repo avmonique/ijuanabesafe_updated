@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --textcolor: #313131;
+    --ybgcolor: #ffcf84;
+    --bbgcolor: #559bfa;
+}
+
+body {
+    background: url('/websys/assets/images/background.svg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.register {
+    background-color: #ffff;
+    max-width: 650px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 30px 35px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 8px 0px;
+}
+
+.register .top-content {
+    text-align: center;
+}
+.register .top-content img {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.register .top-content p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #000000af;
+}
+
+.register .top-content h1 {
+    font-weight: 700;
+    color: var(--bbgcolor);
+    text-transform: uppercase;
+    margin: 10px;
+    letter-spacing: 0.4px;
+}
+
+.req {
+    color: var(--textcolor);
+    font-size: 10px;
+}
+
+.register input {
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--bbgcolor);
+    width: 100%;
+    padding: 11px 15px;
+    border-radius: 30px;
+}
+
+.register form p {
+    color: var(--textcolor);
+    padding: 5px 0;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: start;
+}
+
+
+.register form select {
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--bbgcolor);
+    width: 100%;
+    padding: 11px 15px;
+    border-radius: 30px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('/websys/assets/images/arrowDownB.png') no-repeat right center;
+    background-size: 10px 10px; 
+    background-position: calc(100% - 12px);
+}
+
+.register form .password {
+    margin-top: 10px;
+}
+
+.register .register-btn {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.register .register-btn input {
+    background-color: var(--bbgcolor);
+    color: #fff;
+    width: 60%;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.reg-btn input:enabled {
+    transition: 0.2s ease;
+}
+
+.reg-btn input:enabled:hover {
+    background-color: #386bb3;
+    outline: none;
+    border-color: #386bb3;
+}
+
+.register input:focus {
+    border: 1px solid #3869ae;
+}
+
+
+.register-bottom {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.register-bottom a {
+    text-decoration: none;
+    color: var(--bbgcolor);
+}
+
+.password-container {
+    position: relative;
+}
+
+.register input[type=password] {
+    padding-right: 50px; 
+}
+
+.toggle-icon {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.img-pw  {
+    
+    object-fit: cover;
+    width: 20px; 
+    margin-right: 8px;
+    margin-left: 10px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.register input[type=password] {
+    padding-right: 50px; 
+}
+
+.toggle-icon, .toggle-icon2 {
+    position: absolute;
+    top: 25px;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.img-pw {
+    width: 20px; 
+}
+
+.register .reg-btn {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.register .reg-btn input {
+    background-color: var(--bbgcolor);
+    color: #fff;
+    width: 60%;
+    cursor: pointer;
+}
+.register .reg-btn input:disabled {
+    background-color: grey;
+    outline: none;
+    border: none;
+    cursor: default;
+    font-weight: 300;
+}
+
+.terms {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.terms input {
+    padding: 0;
+    margin: 0;
+    width: 20px;
+}
+
+.terms a {
+    color: var(--bbgcolor);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* terms modal style */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    border-radius: 30px;
+    margin: auto;
+    padding: 25px 40px;
+    width: 50%;
+  }
+
+  .modal-content h1 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--bbgcolor);
+  }
+
+  .modal-content .terms-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .terms-content {
+    color: var(--textcolor);
+    margin-bottom: 5px;
+  }
+
+  .terms-content h4 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .terms-content p {
+    font-size: 13px;
+  }
+
+  .modal-content .terms-bottom {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--textcolor);
+    margin-bottom: 5px;
+  }
+
+  .terms-top {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: bold;
+
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+ .error-style {
+    color: yellow;
+  }

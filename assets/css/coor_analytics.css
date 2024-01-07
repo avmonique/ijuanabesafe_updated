@@ -1,0 +1,19 @@
+.content {
+    margin-left: 350px;
+}
+
+.analytics-card {
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    width: 1100px;
+    height: 90vh;
+    padding: 30px 40px;
+}
+
+.analytics-card h1 {
+    font-weight: 500;
+    font-size: 28px;
+    color: var(--bbgcolor);
+}

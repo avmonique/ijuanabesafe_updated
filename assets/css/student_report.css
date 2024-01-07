@@ -1,0 +1,109 @@
+
+
+body {
+    color: var(--textcolor);
+}
+
+.content {
+    margin-left: 330px;
+}
+
+.content h1 {
+    color: var(--textcolor);
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.top-content {
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-content .notif {
+    margin-top: 12px;
+}
+
+.top-content .notif a{
+    color: var(--textcolor);
+    text-decoration: none;
+}
+
+.top-content button {
+    background-color:transparent;
+    border: none;
+    outline: none;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.top-content img {
+    width: 22px;
+    margin-right: 5px;
+}
+
+.top-content .arrowDown {
+    margin-left: 5px;
+    width: 13px;
+}
+
+.top-content button span {
+    font-size: 16px;
+    color: var(--textcolor);
+}
+
+.report-card {
+    position: relative;
+    width: 1090px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 23.5px 31px;
+    margin-bottom: 20px;
+}
+
+.report-card h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.report-card p {
+    font-weight: 300;
+    font-size: 15.5px;
+}
+
+.report-card .dateRep span, .report-card .status, .report-card .actionsTaken {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.report-card .dateRep span.date, .report-card .sstatus {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.report-card .delete {
+    position: absolute;
+    top: 23px;
+    right: 40px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+.report-card .delete img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.report-card .delete a {
+    text-decoration: none;
+    /* color: var(--textcolor); */
+    color: #FF3C3C;
+    font-size: 14px;
+}

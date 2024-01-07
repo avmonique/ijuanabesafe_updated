@@ -1,0 +1,541 @@
+
+.content {
+    margin-left: 330px;
+}
+
+.content h1 {
+    color: var(--textcolor);
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+.content .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    width: 800px;
+    margin-bottom: 10px;
+}
+
+.top-buttons {
+    display: flex;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: 2px solid var(--bbgcolor);
+    border-radius: 100px 0 0 100px;
+    width: 200px;
+    background: none;
+    padding: 6px 0;
+    padding-left: 13px;
+    font-size: 12px;
+    outline: none;
+}
+
+.search-input::placeholder {
+    color: var(--textcolor);
+}
+
+.search-button {
+    padding-top: 7.8px;
+    padding-bottom: 6.2px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border: none;
+    border-left: none;
+    border-radius: 0 100px 100px 0;
+    background-color: var(--bbgcolor);
+    cursor: pointer;
+}
+
+
+.content .header .filter {
+    position: relative;
+}
+
+.content .header select {
+    background-color: transparent;
+    padding: 7px 0;
+    padding-left: 12px;
+    border-width: 2px;
+    border-radius: 100px;
+    border-color: var(--bbgcolor);
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('/websys/assets/images/filterIcon.png') no-repeat right center;
+    background-size: 10px 10px; 
+    background-position: calc(100% - 12px);
+    font-size: 12px;
+    width: 140px;
+    z-index: 0;
+    margin-left: 10px;
+}
+
+.content .header option {
+    font-size: 12px;
+}
+
+.report-card {
+    width: 800px;
+    background-color: #fff;
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); */
+    border-radius: 30px;
+    padding: 23.5px 31px;
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.report-top-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.report-top-content .user {
+    display: flex;
+    align-items: center;
+}
+
+.report-top-content .date {
+    font-size: 12px;
+    color: var(--textcolor);
+}
+
+.report-top-content .user .circle-text {
+    /* background-color: var(--ybgcolor); */
+    color: var(--bbgcolor);
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--bbgcolor);
+    /* padding: 10px; */
+    border-radius: 50px;
+    font-size: 13px;
+    margin-right: 10px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.report-top-content .user .username {
+    font-weight: 300;
+}
+
+.report-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.report-card .comment-container {
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.report-card .comment-container .top-comment {
+    display: flex;
+    align-items: center;
+}
+
+.report-card .comment-container .student-comment {
+    /* padding: 10px 15px; */
+    /* border: 1px solid gray; */
+    /* border-radius: 10px; */
+    font-size: 12px;
+    /* margin: 0px 0; */
+    margin-left: 45px;
+}
+.report-card .comment-container .username {
+    font-size: 14px;
+}
+
+.report-card .comment-container .circle-text {
+    /* background-color: var(--ybgcolor); */
+    color: var(--bbgcolor);
+    width: 35px;
+    height: 35px;
+    border: 1px solid var(--bbgcolor);
+    /* padding: 10px; */
+    border-radius: 50px;
+    font-size: 11px;
+    margin-right: 10px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+/* .report-card .bottom-btn img {
+    width: 21.5px;
+    margin-right: 10px;
+} */
+
+.report-card .bottom-btn a {
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    color: var(--textcolor);
+    font-size: 15px;
+}
+
+.report-card .image-box {
+    margin: 10px 0;
+}
+
+.report-card .image-box img {
+    border-radius: 10px;
+}
+
+.comment-box form input[type=text] {
+    display: inline-block;
+    width: 75%;
+    background-color: none;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    padding-left: 10px;
+    border-radius: 100px;
+    background-color: rgba(128, 128, 128, 0.179);
+}
+
+.comment-box form input[type=submit] {
+    /* display: inline-block; */
+    text-decoration: none;
+    text-align: center;
+    width: 24.3%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: var(--ybgcolor);
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--textcolor);
+    padding: 11.5px;
+    border-radius: 100px;
+    font-size: 11px;
+    transition: 0.2s ease;
+}
+
+.comment-box a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: var(--ybgcolor);
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--textcolor);
+    padding: 11.5px;
+    border-radius: 100px;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+.comment-box a:hover {
+    background-color: #c09c62;
+}
+
+.content .sidebar-profile {
+    position: fixed;
+    top: 35px;
+    right: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 38vh;
+    border-radius: 30px;
+}
+
+.program {
+    font-size: 12px;
+}
+
+.content .sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .sidebar-profile .profile-avatar {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 90px;
+    height: 90px;
+    padding-top: 27px;
+    text-align: center;
+    /* background-color: var(--ybgcolor); */
+    border: 3px solid var(--bbgcolor);
+    border-radius: 100px;
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--bbgcolor);
+}
+
+.report-btn button {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    background-color: var(--bbgcolor);
+    padding: 12px 23px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.report-btn button img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.report-btn button:hover {
+    background-color: #386bb3;
+}
+
+.report-btn span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    font-size: 12px;
+}
+.sidebar-profile .edit-profile {
+    margin-top: 20px;
+}
+.sidebar-profile .edit-profile img, .sidebar-profile .logout img {
+    width: 13px;
+}
+.sidebar-profile .edit-profile a, .sidebar-profile .logout a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+
+.sidebar-profile .student-fullname {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+}
+
+.sidebar-profile .student-fullname span {
+    color: grey;
+    font-size: 16px;
+}
+
+.sidebar-profile .campus {
+    font-size: 14px;
+    font-weight: 300;
+    font-weight: 400;   
+}
+
+.sidebar-profile .logout {
+    margin-top: 10px;
+}
+
+/* MODAL DESIGN */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 80px; /*Location of the box modal*/
+    padding-bottom: 20px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin-left: 550px;
+    bottom: 10px;
+    border-radius: 40px;
+    width: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+  .modal::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Add Animation */
+  @-webkit-keyframes animatetop {
+    from {bottom:-300px; opacity:0}
+    to {bottom:10px; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {bottom:-300px; opacity:0}
+    to {bottom:10px; opacity:1}
+  }      
+
+.report-form {
+    padding: 30px 50px;
+}
+
+.report-top {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.report-form .title {
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.report-form p {
+    font-weight: 300;
+    margin-bottom: 3px;
+    margin-bottom: 3px;
+}
+.report-form form select {
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--bbgcolor);
+    width: 100%;
+    padding: 11px 15px;
+    border-radius: 30px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('/websys/assets/images/arrowDownB.png') no-repeat right center;
+    background-size: 10px 10px; 
+    background-position: calc(100% - 12px);
+}
+
+.report-form form .others {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--bbgcolor);
+    border-radius: 30px;
+}
+
+.report-form input.others:disabled {
+    border: 1px solid grey;
+}
+
+.report-form textarea {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    border: 1px solid var(--bbgcolor);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.report-form .radio  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.report-form .radio .radio-input {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.report-form .radio label {
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.report-form input[type=radio]:after {
+    border: 2px solid var(--bbgcolor);
+    background-color: red;
+}
+
+.report-form input[type=file] {
+    width: 100%;
+    border: 1px solid var(--bbgcolor);
+    padding: 7px 0;
+    border-radius: 30px;
+}
+
+.report-form input[type=file]::file-selector-button {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    margin-left: 10px;
+    background-color: #e5e5e5;
+}
+
+.report-form .image-upload {
+    margin: 5px 0;
+}
+
+.report-form .anonymous {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.report-form .anonymous label {
+    margin-left: 5px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.report-form .bottom-btn {
+    margin: 5px 0;
+    display: inline-block;
+    display: flex;
+    justify-content: center; 
+}
+.report-form .bottom-btn button { /*canecl button*/
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    background-color: grey;
+    padding: 8px 0;
+    color: #fff;
+    font-size: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    -webkit-animation-name: animatedown;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatedown;
+    animation-duration: 0.4s
+}
+
+.report-form .bottom-btn .submit-btn {
+    border-radius: 30px;
+    border: none;
+    width: 120px;
+    background-color: var(--bbgcolor);
+    padding: 8px 0;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
