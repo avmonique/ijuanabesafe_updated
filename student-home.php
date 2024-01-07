@@ -184,6 +184,7 @@
                                 <input type="checkbox" name="anonymous" id="anonymous">
                                 <label for="anonymous">Report anonymously</label>
                             </div>
+
                             <div class="bottom-btn">
                                 <button type="button" class="close">Cancel</button>
                                 <input type="submit" name="submit-report" class="submit-btn" value="Submit Report">

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2024 at 07:08 PM
+-- Generation Time: Jan 07, 2024 at 07:49 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -91,7 +91,7 @@ CREATE TABLE `student_reports` (
   `reportID` int(11) NOT NULL,
   `studentEmail` varchar(255) NOT NULL,
   `reportAbout` varchar(255) NOT NULL,
-  `reportDescription` varchar(255) NOT NULL,
+  `reportDescription` text DEFAULT NULL,
   `location` varchar(255) NOT NULL,
   `pic_path` varchar(255) NOT NULL,
   `reportDate` datetime NOT NULL,
@@ -143,7 +143,7 @@ ALTER TABLE `report_comments`
 -- AUTO_INCREMENT for table `student_reports`
 --
 ALTER TABLE `student_reports`
-  MODIFY `reportID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `reportID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- Constraints for dumped tables
