@@ -454,6 +454,27 @@
     padding: 10px;
 }
 
+.report-form textarea::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .report-form textarea::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 20px;
+  }
+   
+  /* Handle */
+  .report-form textarea::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  .report-form textarea::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
 .report-form .radio  {
     display: flex;
     align-items: center;

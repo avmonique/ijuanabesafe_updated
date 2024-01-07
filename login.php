@@ -58,7 +58,7 @@
 
             <form action="" method="post">
                 <p class="email">Email:</p>
-                <input type="text" name="email">
+                <input type="email" name="email" required>
                 <p class="password">Password:</p>
                 <div class="password-container">
                     <input type="password"  name="password" id="password" class="password-input" required/>
